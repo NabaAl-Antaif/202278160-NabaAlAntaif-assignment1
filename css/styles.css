@@ -1,7 +1,13 @@
+:root {
+    --hoverCol: #5F8D7E;
+    --textCol: #2F3E34; 
+    --background: white;
+}
+
 body {
     line-height: 1.6;
     margin: 0;
-    background-color: white;
+    background-color: var(--background);
 }
 
 header {
@@ -31,16 +37,27 @@ h1,h2,h3 {
     font-family:Georgia, 'Times New Roman', Times, serif;
     color: #2F3E34;
 }
+
 p {
     font-family:Georgia, 'Times New Roman', Times, serif;
-    color: #2F3E34;
+    color: var(--textCol);
     font-size: 20px;
+}
+
+.navigation {
+    display: flex;               
+    justify-content: center;     
+    align-items: center;         
+    gap: 30px;                   
+    padding: 15px 0;             
+    background-color: #FBFCF0;  
 }
 
 .navigation a {
     background-color: #FBFCF0;
-    color: #2F3E34;
     text-decoration: none;
+    display: inline;
+    color: var(--textCol);
     margin:20px;
     font-weight: 500;
     font-size: 20px;
@@ -58,9 +75,11 @@ p {
 .projects-container {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 30px;
-    max-width: 900px;
-    margin: 0 auto;
+    max-width: 100%;
+    margin: 40px auto;
 }
 
 .project-card {
@@ -71,6 +90,7 @@ p {
     overflow: hidden;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s, box-shadow 0.3s;
+    width: 500px;
 }
 
 .project-card:hover {
@@ -122,4 +142,51 @@ p {
 .project-content ul li {
     margin: 5px 0;
     color: #555;
+}
+
+/* Form Section Style */
+
+.card {
+    border-radius: 10px;
+    padding: 16px;
+    background: var(--background);
+}
+.form-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+.form-group { margin-bottom: 12px; }
+
+label { display: block; font-weight: 600; margin-bottom: 6px; }
+
+input[type="text"], input[type="email"], textarea, select {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid;
+    border-radius: 8px;
+    background: #fff;
+    font: inherit;
+}
+
+textarea { min-height: 100px; }
+
+.btn {
+    background: var(--background);      
+    color: var(--textCol);          
+    padding: 12px 20px;                 
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 16px;                    
+    border: 2px solid #f3faf5;  
+    transition: background-color 0.3s;
+    
+}
+
+.btn:hover { 
+    background: var(--hoverCol);        
+    color: white;                        
+    transform: translateY(-2px);         
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
 }
