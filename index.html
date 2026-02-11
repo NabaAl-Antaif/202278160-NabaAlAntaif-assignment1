@@ -3,13 +3,93 @@
     <head>
         <meta charset="UTF-8">
         <title>My personal portfolio</title>
+        <link rel="stylesheet" href="css/styles.css">
     </head>
     <body> 
-        <h1> Naba Hassan Al-Antaif</h1>
-        <ul> 
-            <li> About Me </li>
-            <li> Projects </li>
-            <li> Contact </li>
-        </ul>
+        <!-- Header Section -->
+        <header>
+            <img src="assets/images/logo.png" alt="Profile Picture" height="300px">   
+            <h2>NABA AL-ANTAIF</h2>
+            <p>Building solutions that make an impact</p>
+        </header>
+        <div id="app">
+            <!-- Navigation -->
+            <nav class="navigation">
+                <a href="#about">About Me</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <!-- About Me Section -->
+            <section id="about">
+                <h2>About Me</h2>
+                <!-- content -->
+                <div>
+                    <p>I am a software engineering student in my Junior year at king Fahd university of Petroleum and Minerals (KFUPM), I am interested in developing applications and websites that help to solve real word problem. </p>
+                    <p>Throughout my journey at KFUPM I have worked on several projects in different programming languages and frame works (ex. Java, JavaFX, Python, C#), and these projects enhanced my problem solving and teamwork skills. </p>
+                </div>
+            </section>
+            <!-- Projects Section -->
+            <section id="projects">
+                <h2>Projects</h2>
+                <div class="projects-container">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="assets/images/projectImg.jpg" alt="Object oriented programming project">
+                        </div>
+                        <div class="project-content">
+                            <h3>Event booking system</h3>
+                            <p class="project-meta">KFUPM | April 2023</p>
+                            <p><strong>Description:</strong> Event organization program that allows admin to add events and users to register in them.</p>
+                            <p><strong>Technologies:</strong>
+                                <ul>
+                                    <li>Java</li>
+                                    <li>JavaFX</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="assets/images/projectImg.jpg" alt="Project 2">
+                        </div>
+                        <div class="project-content">
+                            <h3>KFUPM ImpactHub Platform</h3>
+                            <p class="project-meta">Organization | Date</p>
+                            <p><strong>Description:</strong> ImpactHub platform is a volunteering platform where volunteers can view available opportunities and register on them. The platform also have a profile section where volunteers can see their progress and rank.</p>
+                            <p><strong>Technologies:</strong>
+                                <ul>
+                                    <li>Figma</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="assets/images/projectImg.jpg" alt="Project 3">
+                        </div>
+                        <div class="project-content">
+                            <h3> Horse Racing Database System</h3>
+                            <p class="project-meta">Organization | Date</p>
+                            <p><strong>Description:</strong> the horse racing database system is java application that is connected to a database through MySQL. The system enable the admin to enter race result and register new horses, while in the user side he can view the race result and horse information.</p>
+                            <p><strong>Technologies:</strong>
+                                <ul>
+                                    <li>MySQL workBench</li>
+                                    <li>Java</li>
+                                    <li>JavaFX</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- contact Section -->
+            <section id="contact"> 
+                
+            </section>
+        </div>
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2026 Naba Al-Antaif</p>
+        </footer>
     </body>
 </html>

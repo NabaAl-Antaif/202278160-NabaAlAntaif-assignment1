@@ -1,0 +1,125 @@
+body {
+    line-height: 1.6;
+    margin: 0;
+    background-color: white;
+}
+
+header {
+    background-color: #FBFCF0;
+    font-family: Georgia, serif;
+    font-size: 36px;
+    color: #2F3E34;
+    font-weight: 400;
+    text-align: center;
+}
+
+footer {
+    background-color: #FBFCF0;
+    font-family: Georgia, serif;
+    font-size: 16px;
+    color: #2F3E34;
+    font-weight: 400;
+    text-align: center;
+}
+
+section {
+    padding: 20px;
+    border-bottom: 1px solid #e4e6ea;
+}
+
+h1,h2,h3 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #2F3E34;
+}
+p {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #2F3E34;
+    font-size: 20px;
+}
+
+.navigation a {
+    background-color: #FBFCF0;
+    color: #2F3E34;
+    text-decoration: none;
+    margin:20px;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 15px 0px;
+    border-radius: 6px;
+    transition: background-color 0.7s;
+}
+
+.navigation a:hover {
+    background-color: #5F8D7E;
+    color: white;
+}
+
+/* Projects Section Styles */
+.projects-container {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.project-image {
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    background-color: #e8e8e8;
+}
+
+.project-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.project-content {
+    padding: 25px;
+}
+
+.project-content h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+.project-meta {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 15px;
+    font-style: italic;
+}
+
+.project-content p {
+    margin: 10px 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+.project-content ul {
+    margin: 8px 0;
+    padding-left: 20px;
+}
+
+.project-content ul li {
+    margin: 5px 0;
+    color: #555;
+}
