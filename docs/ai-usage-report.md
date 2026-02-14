@@ -4,30 +4,21 @@
 
 ### GitHub Copilot
 
-* Generated the **project card styling** and helped make the cards interactive.
+* Generated the **project card styling** and helped make them interactive.
 * Generated the **form section styling**.
 
 ### ChatGPT
 
 * Provided **design suggestions** (color theme rules, font types, and sizes).
-* Explained **JavaScript concepts**, especially how HTML elements can be accessed and used inside a JavaScript file.
-* Explained **Markdown (.md) file syntax** and how to write documentation files.
+* Explained **JavaScript concepts**, how I can use HTML element in the JavaScript file.
+* Explained **Markdown (.md) file syntax** how I can write .md files.
 
 ---
 
 ## Benefits & Challenges
 
-Using AI helped me improve my web development skills through the explanations and suggestions it provided.
+* Using AI helps me to improve my web development skills through the suggestions and explanations it gives. I was facing difficulties in styling my website and the section looked very boring, so using GitHub Copilot helps me to add some effects to my components, but some CSS suggestions conflicted with my existing styles, so I needed to review them. Moreover, the JavaScript part was confusing me because I did not know how to use the HTML elements inside it, so ChatGPT explained to me how I can do that by using document.getElementById( ). On the other hand, ChatGPT was not the best to give color suggestion for the website, so I asked it to give me rules to follow while choosing the color and I select the theme by myself.
 
-I initially had difficulty styling my website, and the sections looked very plain. GitHub Copilot helped me add visual effects and styling to my components. However, some CSS suggestions conflicted with my existing styles, so I needed to review and modify the code.
-
-The JavaScript part was also confusing because I did not know how to use HTML elements inside JavaScript. ChatGPT explained how this works using:
-
-`document.getElementById()`
-
-On the other hand, ChatGPT was not very effective at choosing colors for my website. Instead, I asked for **rules for selecting colors**, and then I selected the theme myself based on those rules.
-
----
 
 ## Learning Outcomes
 
@@ -130,8 +121,7 @@ I used these functions to display a success message after the user clicks the se
 
 ## Responsible Use & Modifications
 
-* I used AI guidelines to choose my own color theme instead of directly copying a design.
-* After receiving AI-generated code, I read and tested it to understand how it works.
-* Some CSS did not match my website structure, so I modified padding, margins, and sizes to fit my layout.
-* I removed parts of the code and tested their effects to decide whether they were necessary.
-* For JavaScript, I studied the functions used to understand them instead of copying them without learning.
+* For choosing the color theme I used the AI rule to choose my own color theme.
+* When I have the AI output, I first read it to understand what he did and then test it in my code. Some of the CSS parts do not match my website structure so I change the sizes, padding, and margin to fit with my website. Also, I try to delete some parts of the code to see its effects to decide whether I need it or not.
+* For JavaScript code I read it and understand the functions used.
+
