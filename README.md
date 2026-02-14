@@ -6,8 +6,15 @@ The website show an overview of me (about section), projects section with descri
 ###  Technologies Used
 
 * HTML → page structure and content
-* CSS3→ styling, layout, and responsive design
+* CSS→ styling, layout, and responsive design
 * JavaScript → interactivity and dynamic behavior
+
+### Features
+- **Navigation Bar:** Links to all sections (About, Projects, Contact) with smooth scrolling.
+- **Responsive Design:** Adapts to different screen sizes for mobile, tablet, and desktop.
+- **Contact Form Interaction:** Displays a confirmation message when the form is submitted.
+- **Smooth Scrolling:** Clicking menu items scrolls smoothly to the corresponding section.
+- **Interactive Buttons:** Buttons respond to hover and click actions.
 
 ---
 
@@ -46,20 +53,6 @@ Handles interactive features:
 
 ---
 
-### Features Implemented
-
-#### Smooth Scrolling
-
-Smoothly scroll to sections in the navigation bar using JavaScript.
-
-#### Form Interaction
-
-When the user submits the contact form, a confirmation message appears.
-
-#### Responsive Design
-
-The layout adapts to different screen sizes using flexible layout techniques.
-
 ## Setup instructions
 How to Run the Project
 
@@ -68,6 +61,8 @@ How to Run the Project
 3. Double-click `index.html`.
 
 No installation or server setup is required.
+
+---
 
 ## AI use
 In this project i have used AI tools to help me in design, style, and link JavaScript with HTML element. I was facing difficulties in styling my website and the section looked very boring, so using GitHub Copilot helps me to add some effects to my components. Also, the JavaScript part was confusing me because I did not know how to use the HTML elements inside it, so ChatGPT explained to me how I can do that. I have learned new things and improve my skills through using AI tools effectively.

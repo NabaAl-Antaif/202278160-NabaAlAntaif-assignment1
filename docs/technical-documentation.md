@@ -10,10 +10,8 @@ The website show an overview of me (about section), projects section with descri
 ## 2. Technologies Used
 
 * HTML → page structure and content
-* CSS3→ styling, layout, and responsive design
+* CSS→ styling, layout, and responsive design
 * JavaScript → interactivity and dynamic behavior
-
----
 
 ## 3. Project Structure
 
@@ -35,23 +33,28 @@ assignment-1/
 └── .gitignore
 
 ```
+## 4. Files Explanation
+
+### `index.html`
+
+This is the main file of the website and represents the structure of the application.
+It contains all page content including the navigation bar, sections (About, Projects, Contact), text, and buttons.
+The browser loads this file first, and it links the CSS and JavaScript files.
+
+### `style.css`
+
+This file controls the visual appearance of the website.
+It defines colors, fonts, spacing, layout, and responsiveness.
+CSS is responsible only for styling existing HTML elements and does not add functionality.
+
+### `script.js`
+
+This file provides interactivity and dynamic behavior.
+It handles user actions such as clicking navigation links, smooth scrolling between sections, and displaying a confirmation message after submitting the contact form.
+JavaScript improves user experience by making the website responsive to user input.
 
 
-**index.html**
-Contains the main structure of the website (navigation, sections, contact form).
-
-**style.css**
-Responsible for layout, colors, and responsive design.
-
-**script.js**
-Handles interactive features:
-
-* smooth scrolling navigation
-* button interactions
-
----
-
-## 4. Features Implemented
+## 5. Features Implemented
 
 ### Smooth Scrolling
 
@@ -67,7 +70,7 @@ The layout adapts to different screen sizes using flexible layout techniques.
 
 ---
 
-## 5. How to Run the Project
+## 6. How to Run the Project
 
 1. Download or clone the project folder.
 2. Open the folder.
@@ -76,7 +79,7 @@ The layout adapts to different screen sizes using flexible layout techniques.
 No installation or server setup is required.
 ---
 
-## 6. Browser Compatibility
+## 7. Browser Compatibility
 
 The website is tested and works correctly on:
 
