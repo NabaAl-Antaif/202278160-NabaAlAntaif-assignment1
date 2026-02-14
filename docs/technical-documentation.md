@@ -19,6 +19,7 @@ The website show an overview of me (about section), projects section with descri
 
 The project follows this folder structure:
 
+```
 assignment-1/
 ├── README.md
 ├── index.html
@@ -32,6 +33,8 @@ assignment-1/
 │   ├── ai-usage-report.md
 │   └── technical-documentation.md
 └── .gitignore
+
+```
 
 
 **index.html**
