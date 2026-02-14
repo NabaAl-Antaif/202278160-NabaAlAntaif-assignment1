@@ -85,3 +85,27 @@ The website is tested and works correctly on:
 
 * Google Chrome
 * Microsoft Edge
+
+## 8. User Guidance / UX
+
+This website is designed to provide a smooth and user-friendly experience for visitors.
+Key user experience features include:
+
+- **Clear Navigation:**  
+  The top menu bar links to all main sections (About, Projects, Contact). Clicking a menu item smoothly scrolls to the corresponding section.
+
+- **Interactive Feedback:**  
+  - Buttons respond to hover and click actions. 
+  - The contact form displays a confirmation message after submission to inform the user that the message was received successfully.
+
+- **Readable Content:**  
+  Text is legible with clear headings, appropriate font sizes, and contrasting colors for easy reading.
+
+- **Consistent Layout:**  
+  All sections, buttons, and navigation elements follow the same style and layout throughout the website.
+
+- **Responsive Design:**  
+  The website automatically adjusts to different screen sizes, including desktop, mobile, and tablet.
+
+- **Quick Access to Information:**  
+  Users can easily locate sections without scrolling excessively or searching.
