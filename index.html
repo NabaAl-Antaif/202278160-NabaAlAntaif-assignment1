@@ -80,12 +80,28 @@
                             </p>
                         </div>
                     </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="assets/images/project1Img.jpg" alt="AI model for analyzing X-ray images">
+                        </div>
+                        <div class="project-content">
+                            <h3>AI model for analyzing X-ray images</h3>
+                            <p class="project-meta">Organization | Date</p>
+                            <p><strong>Description:</strong> the project use google colab to train AI model on several X-ray images for chest, the images where classified into 3 categories. KNN, SVM, CNN were used to train the model to see which one gives the best results</p>
+                            <p><strong>Technologies:</strong>
+                                <ul>
+                                    <li>Google colab</li>
+                                    <li>Python programming language</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </section>
             <!-- contact Section -->
             <section id="contact">
                 <h2>Contact</h2> 
-                <form action="#" method="post" class="card">
+                <form id="contactForm" action="#" method="post" class="card">
                     <div class="form-group">
                         <label for="name">Name:</label>
                         <input id="name" name="name" type="text" placeholder="name" required>
@@ -98,13 +114,15 @@
                         <label for="message">Your Message:</label>
                         <textarea id="message" name="message" rows="4" placeholder="Write your message..." required></textarea>
                     </div>
-                    <button type="submit" class="btn">Send</button>
+                    <button type="submit" class="btn" id="sendBtn">Send</button>
                 </form>
+                <p id="formMsg"></p>
             </section>
         </div>
         <!-- Footer -->
         <footer>
             <p>&copy; 2026 Naba Al-Antaif</p>
         </footer>
+        <script src="js/script.js"></script>
     </body>
 </html>
