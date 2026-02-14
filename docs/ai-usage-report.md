@@ -123,5 +123,4 @@ I used these functions to display a success message after the user clicks the se
 
 * For choosing the color theme I used the AI rule to choose my own color theme.
 * When I have the AI output, I first read it to understand what he did and then test it in my code. Some of the CSS parts do not match my website structure so I change the sizes, padding, and margin to fit with my website. Also, I try to delete some parts of the code to see its effects to decide whether I need it or not.
-* For JavaScript code I read it and understand the functions used.
-
+* For JavaScript code I read it and understand the functions used, i made some modification on the code to make it more readable and organized.
