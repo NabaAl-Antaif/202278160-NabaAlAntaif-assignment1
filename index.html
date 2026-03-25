@@ -33,11 +33,18 @@
             </section>
 
             <!-- Projects Section -->
-            <!-- Object oriented programming project -->
             <section id="projects">
                 <h2>Projects</h2>
+                <!-- Filter buttons -->
+                <div class="filter-container">
+                    <button class="filter-btn " onclick="filterProjects('all')">All</button>
+                    <button class="filter-btn" onclick="filterProjects('Java')">Java</button>
+                    <button class="filter-btn" onclick="filterProjects('Python')">Python</button>
+                    <button class="filter-btn" onclick="filterProjects('Prototype')">Prototype</button>
+                </div>
                 <div class="projects-container">
-                    <div class="project-card">
+                    <!-- Object oriented programming project -->
+                    <div class="project-card" data-category="Java">
                         <div class="project-image">
                             <img src="assets/images/project1Img.jpg" alt="Object oriented programming project">
                         </div>
@@ -45,17 +52,16 @@
                             <h3>Event booking system</h3>
                             <p class="project-meta">KFUPM | April 2023</p>
                             <p><strong>Description:</strong> Event organization program that allows admin to add events and users to register in them.</p>
-                            <p><strong>Technologies:</strong>
+                            <p><strong>Technologies:</strong></p>
                                 <ul>
                                     <li>Java</li>
                                     <li>JavaFX</li>
                                 </ul>
-                            </p>
                         </div>
                     </div>
 
                     <!-- KFUPM ImpactHub Platform -->
-                    <div class="project-card">
+                    <div class="project-card" data-category="Prototype">
                         <div class="project-image">
                             <img src="assets/images/project2Img.jpg" alt="KFUPM ImpactHub Platform">
                         </div>
@@ -63,16 +69,15 @@
                             <h3>KFUPM ImpactHub Platform</h3>
                             <p class="project-meta">Organization | Date</p>
                             <p><strong>Description:</strong> ImpactHub platform is a volunteering platform where volunteers can view available opportunities and register on them. The platform also have a profile section where volunteers can see their progress and rank.</p>
-                            <p><strong>Technologies:</strong>
+                            <p><strong>Technologies:</strong></p>
                                 <ul>
                                     <li>Figma</li>
                                 </ul>
-                            </p>
                         </div>
                     </div>
 
                     <!-- Horse Racing Database System -->
-                    <div class="project-card">
+                    <div class="project-card" data-category="Java">
                         <div class="project-image">
                             <img src="assets/images/project3Img.jpg" alt="Horse Racing Database System">
                         </div>
@@ -80,18 +85,17 @@
                             <h3> Horse Racing Database System</h3>
                             <p class="project-meta">Organization | Date</p>
                             <p><strong>Description:</strong> the horse racing database system is java application that is connected to a database through MySQL. The system enable the admin to enter race result and register new horses, while in the user side he can view the race result and horse information.</p>
-                            <p><strong>Technologies:</strong>
+                            <p><strong>Technologies:</strong></p>
                                 <ul>
                                     <li>MySQL workBench</li>
                                     <li>Java</li>
                                     <li>JavaFX</li>
                                 </ul>
-                            </p>
                         </div>
                     </div>
 
                     <!-- AI model for analyzing X-ray images -->
-                    <div class="project-card">
+                    <div class="project-card" data-category="Python">
                         <div class="project-image">
                             <img src="assets/images/project4Img.jpg" alt="AI model for analyzing X-ray images">
                         </div>
@@ -99,12 +103,11 @@
                             <h3>AI model for analyzing X-ray images</h3>
                             <p class="project-meta">Organization | Date</p>
                             <p><strong>Description:</strong> the project use google colab to train AI model on several X-ray images for chest, the images where classified into 3 categories. KNN, SVM, CNN were used to train the model to see which one gives the best results</p>
-                            <p><strong>Technologies:</strong>
+                            <p><strong>Technologies:</strong></p>
                                 <ul>
                                     <li>Google colab</li>
-                                    <li>Python programming language</li>
+                                    <li>Python</li>
                                 </ul>
-                            </p>
                         </div>
                     </div>
                 </div>
@@ -113,7 +116,7 @@
             <!-- contact Section -->
             <section id="contact">
                 <h2>Contact</h2> 
-                <form id="contactForm" action="#" method="post" class="card">
+                <form id="contactForm" action="#" method="post" class="card" novalidate>
                     <div class="form-group">
                         <label for="name">Name:</label>
                         <input id="name" name="name" type="text" placeholder="name" required>

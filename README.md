@@ -15,6 +15,7 @@ The website show an overview of me (about section), projects section with descri
 - **Contact Form Interaction:** Displays a confirmation message when the form is submitted.
 - **Smooth Scrolling:** Clicking menu items scrolls smoothly to the corresponding section.
 - **Interactive Buttons:** Buttons respond to hover and click actions.
+- **Filtering Projects:** Filtering choice (Java projects, Python projects, Prototypes, All projects).
 
 ---
 

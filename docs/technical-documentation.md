@@ -64,6 +64,10 @@ Smoothly scroll to sections in the navigation bar using JavaScript.
 
 When the user submits the contact form, a confirmation message appears.
 
+### Project Filtering
+
+Show the projects based on the user filter choice (Java projects, Python projects, Prototypes, All projects)
+
 ### Responsive Design
 
 The layout adapts to different screen sizes using flexible layout techniques.
