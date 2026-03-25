@@ -40,9 +40,9 @@ I used these rules to select my website color theme.
 #### data-category
 
 * Used to store custom data (filtering logic)
-```
-* <div class="project-card" data-category="Java">...</div>
-```
+
+* `<div class="project-card" data-category="Java">...</div>`
+
 
 ---
 
