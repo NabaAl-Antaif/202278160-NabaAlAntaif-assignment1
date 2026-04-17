@@ -100,3 +100,33 @@ themeToggleBtn.addEventListener("click", function () {
         localStorage.setItem("theme", "light"); // Save theme preference to localStorage
     }   
 });
+
+// Fetch GitHub repository data
+async function loadRepos() {
+    const repoList = document.getElementById("repo-list");
+
+    try {
+        const response = await fetch("https://api.github.com/users/NabaAnteef/repos");
+
+        if (!response.ok) {
+        throw new Error("Failed to fetch repositories");
+        }
+
+        const repos = await response.json();
+
+        repoList.innerHTML = repos
+        .map(repo => `
+            <div class="repo-card">
+            <h3>${repo.name}</h3>
+            <p>${repo.description || "No description available"}</p>
+            <a href="${repo.html_url}" target="_blank">View on GitHub</a>
+            </div>
+        `)
+        .join("");
+
+    } catch (error) {
+        repoList.innerHTML = `<p class="error">⚠️ Could not load projects. Please try again later.</p>`;
+    }
+}
+
+loadRepos();
