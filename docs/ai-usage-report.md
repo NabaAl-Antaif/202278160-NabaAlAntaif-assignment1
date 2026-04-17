@@ -44,10 +44,6 @@ I used these rules to select my website color theme.
 * <div class="project-card" data-category="Java">...</div>
 =======
 
-* `<div class="project-card" data-category="Java">...</div>`
->>>>>>> d201a22c0d4c04f766569ffaf26ae7e237c5e592
-
-
 ---
 
 ### Technical Skills
@@ -137,5 +133,3 @@ I used these functions to display a success message after the user clicks the se
 <<<<<<< HEAD
 * For JavaScript code I read it and understand the functions used, i made some modification on the code to make it more readable and organized.
 =======
-* For JavaScript code I read it and understand the functions used, i made some modification on the code to make it more readable and organized.
->>>>>>> d201a22c0d4c04f766569ffaf26ae7e237c5e592
