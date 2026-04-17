@@ -72,13 +72,31 @@ function filterProjects(category) {
 //toggle dark mode
 const themeToggleBtn = document.getElementById("theme-toggle");
 const body = document.body;
+const profilePic = document.querySelector(".profile-pic");
+const icon = themeToggleBtn.querySelector(".icon");
+
+const savedTheme = localStorage.getItem("theme");
+
+// Apply saved theme on page load
+if (savedTheme === "dark") {
+    body.classList.add("dark-mode");
+    icon.textContent = "☀️";
+    profilePic.src = "assets/images/logoDark.png";
+} else {
+    icon.textContent = "🌙";
+    profilePic.src = "assets/images/logo.png";
+}
 
 themeToggleBtn.addEventListener("click", function () {
     body.classList.toggle("dark-mode");
-    const icon = themeToggleBtn.querySelector(".icon");
     if (body.classList.contains("dark-mode")) {
         icon.textContent = "☀️";
+        profilePic.src = "assets/images/logoDark.png"; // Change to dark mode profile picture
+        localStorage.setItem("theme", "dark"); // Save theme preference to localStorage
     } 
-    else {icon.textContent = "🌙";
+    else {
+        icon.textContent = "🌙";
+        profilePic.src = "assets/images/logo.png"; // Change back to light mode profile picture
+        localStorage.setItem("theme", "light"); // Save theme preference to localStorage
     }   
 });
