@@ -23,8 +23,9 @@
     --btn-bg: #2A2D2A;
     --btn-icon-color: #E8ECE6;
 }
-
-
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
 body {
     line-height: 1.6;
@@ -35,7 +36,6 @@ body {
 
 header {
     background: var(--background2);
-    font-family: Georgia, serif;
     color: var(--textCol);
     text-align: center;
     padding: 60px 30px;
@@ -67,8 +67,7 @@ header p {
 
 footer {
     background: var(--background2);
-    font-family: Georgia, serif;
-    color: #2F3E34;
+    color: var(--textCol);
     text-align: center;
     padding: 40px 30px;
     margin-top: 60px;
@@ -91,19 +90,15 @@ section h2{
 }
 
 h1,h2,h3 {
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    color: #2F3E34;
+    color: var(--textCol);
 }
 
 p {
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    color: var(--textCol);
     font-size: 18px;
     margin: 0 0 16px 0;
 }
 
 button {
-    font-family:Georgia, 'Times New Roman', Times, serif;
     color: var(--textCol);
     font-size: 16px;
     margin: 0 0 16px 0;
@@ -142,7 +137,7 @@ button {
     left: 20px;
     right: 20px;
     height: 2px;
-    background-color: #5F8D7E;
+    background-color: var(--hoverCol);
     transform: scaleX(0);
     transform-origin: right;
     transition: transform 0.3s ease;
@@ -150,7 +145,7 @@ button {
 
 .navigation a:hover {
     background-color: rgba(95, 141, 126, 0.1);
-    color: #5F8D7E;
+    color: var(--hoverCol);
 }
 
 .navigation a:hover::after {
@@ -182,7 +177,6 @@ button {
 
 .project-card p{
     font-size: 16px;
-    padding: 0px;
 }
 
 .project-card:hover, .repo-card:hover {
@@ -310,7 +304,6 @@ textarea {
     transition: all 0.3s ease;
     box-shadow: 0 4px 15px rgba(95, 141, 126, 0.3);
     letter-spacing: 0.5px;
-    text-transform: uppercase;
 }
 
 .btn:hover { 
@@ -362,7 +355,7 @@ textarea {
     left: 20px;
     right: 20px;
     height: 2px;
-    background-color: #5F8D7E;
+    background-color: var(--hoverCol);
     transform: scaleX(0);
     transform-origin: right;
     transition: transform 0.3s ease;
@@ -370,7 +363,7 @@ textarea {
 
 .filter-btn:hover {
     background-color: rgba(95, 141, 126, 0.1);
-    color: #5F8D7E;
+    color: var(--hoverCol);
 }
 
 .filter-btn:hover::after {
@@ -379,7 +372,7 @@ textarea {
 }
 
 .filter-btn.active {
-    color: #5F8D7E;
+    color: var(--hoverCol);
 }
 
 .filter-btn.active::after {
