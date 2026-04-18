@@ -62,8 +62,7 @@ Smoothly scroll to sections in the navigation bar using JavaScript.
 
 ### Form Interaction
 
-The contact form includes real-time validation for all fields.
-After successful submission, a confirmation message appears along with a countdown before it disappears automatically.
+The contact form includes real-time validation for all fields, after successful submission, a confirmation message appears along with a countdown before it disappears automatically.
 
 ### Project Filtering
 
@@ -142,7 +141,6 @@ Key user experience features include:
 **7. Quick Access to Information**
 - Each section is clearly labeled and structured, allowing users to find information quickly without unnecessary scrolling.
 - Visual feedback (hover effects, active states, animations) helps users understand what elements are interactive.
-
 
 **8. Readable Content**
 - Text is legible with clear headings, appropriate font sizes, and contrasting colors for easy reading.

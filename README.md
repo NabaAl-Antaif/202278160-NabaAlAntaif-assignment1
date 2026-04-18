@@ -1,7 +1,7 @@
 # Portfolio Assignment 
 ## Project description
 This project is a personal portfolio website developed using HTML, CSS, and JavaScript.
-The website show an overview of me (about section), projects section with description for each project, and lastly a contact form so users can send messages.
+The website show an overview of me (about section), projects section with description for each project, GitHup repository from my gitHup account, and lastly a contact form so users can send messages.
 
 ###  Technologies Used
 
@@ -10,12 +10,15 @@ The website show an overview of me (about section), projects section with descri
 * JavaScript → interactivity and dynamic behavior
 
 ### Features
-- **Navigation Bar:** Links to all sections (About, Projects, Contact) with smooth scrolling.
+- **Navigation Bar:** Links to all sections (About, Projects, GitHup, Contact) with smooth scrolling.
 - **Responsive Design:** Adapts to different screen sizes for mobile, tablet, and desktop.
-- **Contact Form Interaction:** Displays a confirmation message when the form is submitted.
+- **Contact Form Interaction:** Displays a confirmation message when the form is submitted and a count down for 5s.
 - **Smooth Scrolling:** Clicking menu items scrolls smoothly to the corresponding section.
 - **Interactive Buttons:** Buttons respond to hover and click actions.
 - **Filtering Projects:** Filtering choice (Java projects, Python projects, Prototypes, All projects).
+- **Dark/Light Mode Toggle:** A theme toggle button allows users to switch between light and dark mode and the website remembers the user's preference using localStorage.
+- **Dynamic GitHub Repository Loading:** The GitHub section fetches and displays the latest repositories from GitHub profile using the GitHub API.
+
 
 ---
 
@@ -78,3 +81,10 @@ In this project i have used AI tools to help me in design, style, and link JavaS
 * Provided design suggestions.
 * Explained JavaScript concepts
 * Explained Markdown (.md) file syntax.
+
+### Microsoft Copilot
+
+* Generate the style of the toggle button and make it interactive
+* Explained how to add a count down to the message
+* Analyze the lighthouse report and help me fix some issues
+* How to remember the theme the user choose
