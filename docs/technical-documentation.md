@@ -62,7 +62,8 @@ Smoothly scroll to sections in the navigation bar using JavaScript.
 
 ### Form Interaction
 
-When the user submits the contact form, a confirmation message appears.
+The contact form includes real-time validation for all fields.
+After successful submission, a confirmation message appears along with a countdown before it disappears automatically.
 
 ### Project Filtering
 
@@ -72,6 +73,14 @@ Show the projects based on the user filter choice (Java projects, Python project
 
 The layout adapts to different screen sizes using flexible layout techniques.
 
+## Dark/Light Mode Toggle
+
+A theme toggle button allows users to switch between light and dark mode and the website remembers the user's preference using localStorage.
+
+## Dynamic GitHub Repository Loading
+The GitHub section fetches and displays the latest repositories from GitHub profile using the GitHub API.
+
+
 ---
 
 ## 6. How to Run the Project
@@ -80,7 +89,7 @@ The layout adapts to different screen sizes using flexible layout techniques.
 2. Open the folder.
 3. Double-click `index.html`.
 
-No installation or server setup is required.
+- No installation or server setup is required.
 ---
 
 ## 7. Browser Compatibility
@@ -95,16 +104,16 @@ The website is tested and works correctly on:
 This website is designed to provide a smooth and user-friendly experience for visitors.
 Key user experience features include:
 
-1. Navigating the Website
+**1. Navigating the Website**
 - The top navigation bar provides quick access to all main sections: About, Projects, GitHub, and Contact.
 - Clicking any menu item automatically scrolls the page to the selected section, allowing users to move around the site easily.
 
-2. Browsing Projects
+**2. Browsing Projects**
 - The Projects section displays project cards that include titles, descriptions, technologies, and preview images.
 - A filter bar at the top allows users to view projects by category: All, Java, Python, and Prototype.
 - Selecting a filter instantly updates the displayed projects, helping users quickly find relevant work.
 
-3. Viewing GitHub Repositories
+**3. Viewing GitHub Repositories**
 - The GitHub section automatically loads the latest repositories from the user’s GitHub profile.
 - Each repository card includes:
 - Repository name
@@ -112,7 +121,7 @@ Key user experience features include:
 - A button linking directly to the GitHub page
 - This allows users to explore additional work with one click.
 
-4. Using the Contact Form
+**4. Using the Contact Form**
 - The Contact section includes fields for Name, Email, and Message.
 - When the user submits the form:
 - Each field is validated, and error messages appear under invalid inputs.
@@ -120,22 +129,22 @@ Key user experience features include:
 - A countdown timer hides the success message automatically.
 - The form resets for convenience.
 
-5. Switching Between Light and Dark Mode
+**5. Switching Between Light and Dark Mode**
 - A toggle button at the top of the page allows users to switch between light mode and dark mode.
 - The icon changes (🌙 / ☀️) to reflect the current theme.
 - The website remembers the user’s preference using local storage, so the chosen theme is applied automatically on future visits.
 
-6. Responsive and Accessible Design
+**6. Responsive and Accessible Design**
 - The layout adjusts smoothly across devices, ensuring a consistent experience on desktops, tablets, and mobile phones.
 - Text, buttons, and sections are designed with clear contrast and spacing to support readability and accessibility.
 
-7. Quick Access to Information
+**7. Quick Access to Information**
 - Each section is clearly labeled and structured, allowing users to find information quickly without unnecessary scrolling.
 - Visual feedback (hover effects, active states, animations) helps users understand what elements are interactive.
 
 
-8. Readable Content
+**8. Readable Content**
 - Text is legible with clear headings, appropriate font sizes, and contrasting colors for easy reading.
 
-9. Consistent Layout 
+**9. Consistent Layout**
 - All sections, buttons, and navigation elements follow the same style and layout throughout the website.
