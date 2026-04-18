@@ -6,12 +6,20 @@
 
 * Generated the **project card styling** and helped make them interactive.
 * Generated the **form section styling**.
+* Show redundant line in the CSS file and delete them.
 
 ### ChatGPT
 
 * Provided **design suggestions** (color theme rules, font types, and sizes).
 * Explained **JavaScript concepts**, how I can use HTML element in the JavaScript file.
 * Explained **Markdown (.md) file syntax** how I can write .md files.
+
+### Microsoft Copilot
+
+* Generate the style of the toggle button and make it interactive
+* Explained how to add a count down to the message
+* Analyze the lighthouse report and help me fix some issues
+* How to remember the theme the user choose
 
 ---
 
@@ -121,8 +129,16 @@ I used these functions to create smooth scrolling in the navigation bar.
 * `messageBox.textContent = "Message sent successfully! ✔"` → displays a success message
 * `messageBox.style.color = "green"` → changes message color
 * `form.reset()` → clears all input fields
+* `setInterval(function, timeInMilliseconds)` → show the message for specific time.
 
 I used these functions to display a success message after the user clicks the send button.
+
+---
+
+**Toggle and remember**
+
+* `localStorage.getItem("theme")` → get the saved theme from the local storage (for the remember feature)
+
 
 ---
 
@@ -130,6 +146,6 @@ I used these functions to display a success message after the user clicks the se
 
 * For choosing the color theme I used the AI rule to choose my own color theme.
 * When I have the AI output, I first read it to understand what he did and then test it in my code. Some of the CSS parts do not match my website structure so I change the sizes, padding, and margin to fit with my website. Also, I try to delete some parts of the code to see its effects to decide whether I need it or not.
-<<<<<<< HEAD
-* For JavaScript code I read it and understand the functions used, i made some modification on the code to make it more readable and organized.
+* For JavaScript code I read it and understand the functions used, I made some modification on the code to make it more readable and organized.
+* For the Lighthouse report analysis I read the AI suggestion and implement them such as (compressing images size, removing redundant code, adding main section in html file)
 =======
