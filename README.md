@@ -54,6 +54,9 @@ Handles interactive features:
 
 * smooth scrolling navigation
 * button interactions
+* toggle and remember theme
+* filter projects
+* fetching data 
 
 ---
 
@@ -74,7 +77,8 @@ In this project i have used AI tools to help me in design, style, and link JavaS
 ### GitHub Copilot
 
 * Generated the project card styling and helped make them interactive.
-* Generated the orm section styling.
+* Generated the form section styling.
+* Show redundant line in the CSS file and delete them.
 
 ### ChatGPT
 
