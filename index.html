@@ -55,7 +55,7 @@
                         </div>
                         <div class="project-content">
                             <h3>Event booking system</h3>
-                            <p class="project-meta">KFUPM | April 2023</p>
+                            <p class="project-meta">KFUPM | 15/4/2023</p>
                             <p><strong>Description:</strong> Event organization program that allows admin to add events and users to register in them.</p>
                             <p><strong>Technologies:</strong></p>
                                 <ul>
@@ -72,7 +72,7 @@
                         </div>
                         <div class="project-content">
                             <h3>KFUPM ImpactHub Platform</h3>
-                            <p class="project-meta">Organization | Date</p>
+                            <p class="project-meta">Organization | 22/2/2024</p>
                             <p><strong>Description:</strong> ImpactHub platform is a volunteering platform where volunteers can view available opportunities and register on them. The platform also have a profile section where volunteers can see their progress and rank.</p>
                             <p><strong>Technologies:</strong></p>
                                 <ul>
@@ -88,7 +88,7 @@
                         </div>
                         <div class="project-content">
                             <h3> Horse Racing Database System</h3>
-                            <p class="project-meta">Organization | Date</p>
+                            <p class="project-meta">Organization | 10/9/2025</p>
                             <p><strong>Description:</strong> the horse racing database system is java application that is connected to a database through MySQL. The system enable the admin to enter race result and register new horses, while in the user side he can view the race result and horse information.</p>
                             <p><strong>Technologies:</strong></p>
                                 <ul>
@@ -106,7 +106,7 @@
                         </div>
                         <div class="project-content">
                             <h3>AI model for analyzing X-ray images</h3>
-                            <p class="project-meta">Organization | Date</p>
+                            <p class="project-meta">Organization | 5/6/2024</p>
                             <p><strong>Description:</strong> the project use google colab to train AI model on several X-ray images for chest, the images where classified into 3 categories. KNN, SVM, CNN were used to train the model to see which one gives the best results</p>
                             <p><strong>Technologies:</strong></p>
                                 <ul>
@@ -130,18 +130,21 @@
                     <div class="form-group">
                         <label for="name">Name:</label>
                         <input id="name" name="name" type="text" placeholder="name" required>
+                        <p class="error-message" id="name-error"></p>
                     </div>
                     <div class="form-group">
                         <label for="email">Email:</label>
                         <input id="email" name="email" type="email" placeholder="email" required>
+                        <p class="error-message" id="email-error"></p>
                     </div>
                     <div class="form-group">
                         <label for="message">Your Message:</label>
                         <textarea id="message" name="message" rows="4" placeholder="Write your message..." required></textarea>
+                        <p class="error-message" id="message-error"></p>
                     </div>
                     <button type="submit" class="btn" id="sendBtn">Send</button>
                 </form>
-                <p id="formMsg"></p>
+                <p id="SuccessMsg"></p>
             </section>
         </div>
 

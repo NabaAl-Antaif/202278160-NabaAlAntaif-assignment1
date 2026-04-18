@@ -21,39 +21,66 @@ contactForm.addEventListener("submit", function (e) {
     const email = contactForm.elements["email"];
     const message = contactForm.elements["message"];
 
-    // empty name field validation
+    const nameError = document.getElementById("name-error");
+    const emailError = document.getElementById("email-error");
+    const messageError = document.getElementById("message-error");
+
+    // Reset all errors
+    nameError.style.display = "none";
+    emailError.style.display = "none";
+    messageError.style.display = "none";
+
+    let hasError = false;
+
     if (name.value.trim() === "") {
-        showMessage("Please enter your name", "red");
-        return;
+        nameError.textContent = "Name is required";
+        nameError.style.display = "block";
+        hasError = true;
     }
 
-    // empty email field validation
     if (email.value.trim() === "") {
-        showMessage("Email is required", "red");
-        return;
+        emailError.textContent = "Email is required";
+        emailError.style.display = "block";
+        hasError = true;
+    } else if (!email.value.includes("@")) {
+        emailError.textContent = "Please enter a valid email";
+        emailError.style.display = "block";
+        hasError = true;
     }
 
-    // invalid email format validation
-    if (!email.value.includes("@")) {
-        showMessage("Please enter a valid email", "red");
-        return;
-    }
-
-    // empty message field validation
     if (message.value.trim() === "") {
-        showMessage("Message cannot be empty", "red");
-        return;
+        messageError.textContent = "Message cannot be empty";
+        messageError.style.display = "block";
+        hasError = true;
     }
 
     // If all validations pass, show success message and reset the form
-    showMessage("Message sent successfully", "green");
-    contactForm.reset();
+    if (!hasError) {
+        const successMessage = document.getElementById("SuccessMsg");
+
+        // Countdown start value
+        let countdown = 5;
+
+        // Show initial message
+        successMessage.style.display = "block";
+        successMessage.textContent = `Message sent successfully ${countdown} .`;
+
+        // Start countdown
+        const timer = setInterval(() => {
+            countdown--;
+            successMessage.textContent = `Message sent successfully ${countdown} .`;
+            if (countdown === 0) {
+                clearInterval(timer);
+                successMessage.style.display = "none";
+            }
+        }, 1000);
+        contactForm.reset();
+    }
 });
 
-// Function to display messages
-function showMessage(text, color) {
+// Function to display success messages
+function showMessage(text) {
     messageBox.textContent = text;
-    messageBox.style.color = color;
 }
 
 //filter projects by category
