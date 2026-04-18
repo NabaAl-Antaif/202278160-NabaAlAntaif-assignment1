@@ -95,21 +95,47 @@ The website is tested and works correctly on:
 This website is designed to provide a smooth and user-friendly experience for visitors.
 Key user experience features include:
 
-- **Clear Navigation:**  
-  The top menu bar links to all main sections (About, Projects, Contact). Clicking a menu item smoothly scrolls to the corresponding section.
+1. Navigating the Website
+- The top navigation bar provides quick access to all main sections: About, Projects, GitHub, and Contact.
+- Clicking any menu item automatically scrolls the page to the selected section, allowing users to move around the site easily.
 
-- **Interactive Feedback:**  
-  - Buttons respond to hover and click actions. 
-  - The contact form displays a confirmation message after submission to inform the user that the message was received successfully.
+2. Browsing Projects
+- The Projects section displays project cards that include titles, descriptions, technologies, and preview images.
+- A filter bar at the top allows users to view projects by category: All, Java, Python, and Prototype.
+- Selecting a filter instantly updates the displayed projects, helping users quickly find relevant work.
 
-- **Readable Content:**  
-  Text is legible with clear headings, appropriate font sizes, and contrasting colors for easy reading.
+3. Viewing GitHub Repositories
+- The GitHub section automatically loads the latest repositories from the user’s GitHub profile.
+- Each repository card includes:
+- Repository name
+- Short description
+- A button linking directly to the GitHub page
+- This allows users to explore additional work with one click.
 
-- **Consistent Layout:**  
-  All sections, buttons, and navigation elements follow the same style and layout throughout the website.
+4. Using the Contact Form
+- The Contact section includes fields for Name, Email, and Message.
+- When the user submits the form:
+- Each field is validated, and error messages appear under invalid inputs.
+- A success message appears when the form is submitted correctly.
+- A countdown timer hides the success message automatically.
+- The form resets for convenience.
 
-- **Responsive Design:**  
-  The website automatically adjusts to different screen sizes, including desktop, mobile, and tablet.
+5. Switching Between Light and Dark Mode
+- A toggle button at the top of the page allows users to switch between light mode and dark mode.
+- The icon changes (🌙 / ☀️) to reflect the current theme.
+- The website remembers the user’s preference using local storage, so the chosen theme is applied automatically on future visits.
 
-- **Quick Access to Information:**  
-  Users can easily locate sections without scrolling excessively or searching.
+6. Responsive and Accessible Design
+- The layout adjusts smoothly across devices, ensuring a consistent experience on desktops, tablets, and mobile phones.
+- Text, buttons, and sections are designed with clear contrast and spacing to support readability and accessibility.
+
+7. Quick Access to Information
+- Each section is clearly labeled and structured, allowing users to find information quickly without unnecessary scrolling.
+- Visual feedback (hover effects, active states, animations) helps users understand what elements are interactive.
+
+
+8. Readable Content
+- Text is legible with clear headings, appropriate font sizes, and contrasting colors for easy reading.
+
+9. Consistent Layout 
+- All sections, buttons, and navigation elements follow the same style and layout throughout the website.
