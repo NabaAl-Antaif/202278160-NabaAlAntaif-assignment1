@@ -116,10 +116,12 @@ async function loadRepos() {
 
         repoList.innerHTML = repos
         .map(repo => `
-            <div class="repo-card">
-            <h3>${repo.name}</h3>
-            <p>${repo.description || "No description available"}</p>
-            <a href="${repo.html_url}" target="_blank">View on GitHub</a>
+            <div class="repo-container">
+                <div class="repo-card">
+                    <h3>${repo.name}</h3>
+                    <p>${repo.description || "No description available"}</p>
+                    <a href="${repo.html_url}" target="_blank">View on GitHub</a>
+                </div>
             </div>
         `)
         .join("");
