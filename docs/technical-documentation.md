@@ -73,11 +73,12 @@ Show the projects based on the user filter choice (Java projects, Python project
 
 The layout adapts to different screen sizes using flexible layout techniques.
 
-## Dark/Light Mode Toggle
+### Dark/Light Mode Toggle
 
 A theme toggle button allows users to switch between light and dark mode and the website remembers the user's preference using localStorage.
 
-## Dynamic GitHub Repository Loading
+### Dynamic GitHub Repository Loading
+
 The GitHub section fetches and displays the latest repositories from GitHub profile using the GitHub API.
 
 
